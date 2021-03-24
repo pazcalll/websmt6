@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App::before{
+  content: "";
+  display: block;
+  background-image: url('https://ieep.eu/uploads/articles/covers/f6541d72-4040-44ec-b160-660890ce30a2/original.jpg?v=63721333210');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 0.75s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.card {
+  max-width: 70%;
+  max-height: 100%;
+}
+/* 
+.card-title {
+  font-weight: bold;
+}
+.card img {
+  width: 50%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+@media only screen and (max-width: 768px) {
+  a {
+    display: none;
+  }
+  .card-body {
+    padding: 0em;
+  }
+  .card{
+    padding: 0em;
+  }
+  .card img {
+    width: 50%;
+    padding: 0em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card img {
+    width: 40%;
+  }
+} */
+
+
+
+.btn{
+  min-width: 20px;
+}
+.central{
+  font-size: 10pt;
+  max-width: 1360px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  position: fixed;
+  padding-top: 90px;
+  /* padding: 0; */
+  height: 100%;
+  width: 200px;
+  min-width: 100px;
+  background-color: #007bff ;
+}
+@media only screen and (width: 768px) {
+  .sidebar{
+    width: 50px;
+    background-color: aliceblue;
+  }
+}
+.container{
+  position: relative;
+  margin-left: 15%;
+}
+.side-item{
+  color: white;
+  line-height: 65px;
+  height: 100%;
+  min-width: 50%;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 40px;
+  /* padding-left: 100%; */
+  transition: 0.5s;
+}
+.sidebar .side-item:hover{
+  padding-left: 50px;
+  color: white;
+  background-color: #61dafb;
+}
+.counter{
+  padding:0px;
+  padding-left: 10px;
+}
+.btnCounter{
+  padding:0
+}
