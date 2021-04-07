@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Modal from 'react-bootstrap/Modal';
+import MyItems from '../pages/MyItems';
 import Button from 'react-bootstrap/button';
 import ModalDialog from 'react-bootstrap/ModalDialog';
 import ModalHeader from 'react-bootstrap/ModalHeader';
@@ -71,7 +72,7 @@ function HomePage() {
               </span>
             </div>
           </div>
-          <Button variant="primary" onClick={handleClose}>
+          <Button variant="primary" onClick={MyItems}>
             Add to Items
           </Button>
         </Modal.Footer>

@@ -1,0 +1,25 @@
+{
+  "keranjang": [
+    {
+      "id": 1617767684242,
+      "itemId": 1,
+      "name": "Mesin Cuci Samsung",
+      "desc": "mesin Cuci Samsung harga murah kualitas terjangkau. bagus untuk anak sultan",
+      "price": "900000",
+      "img": "https://images.bisnis-cdn.com/thumb/posts/2019/02/05/885521/samsung-mesin-cuci.jpg?w=600&h=400",
+      "stock": 3
+    },
+    {
+      "id": 1617768633653,
+      "itemId": 2,
+      "name": "Mesin Cuci Polytron",
+      "desc": "Mesin Cuci Politron kualitas terjangkau ramah lingkungan. bagus untuk solo player",
+      "price": "1000000",
+      "img": "https://blogpictures.99.co/mesin-cuci-polytron-header99.jpg",
+      "stock": 4
+    }
+  ],
+  "history": [
+    {}
+  ]
+}

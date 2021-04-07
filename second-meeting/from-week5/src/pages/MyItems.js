@@ -1,4 +1,8 @@
-import {React, useState} from 'react';
+import {React, useState, Component} from 'react';
+import {connect} from 'react-redux'
+import {addTodo} from '../Action/ActionCreator'
+import {bindActionCreators} from 'redux'
+
 import {Link} from 'react-router-dom';
 import $ from 'jquery';
 import Row from 'react-bootstrap/Row';
@@ -25,29 +29,29 @@ export default function MyItems(){
           console.log(this.count);
         }
       };
-    return(
-        <div>
-            <a className="btn btn-primary" style={{marginLeft:"20px", marginBottom:"20px"}}>CHECK OUT</a>
-            <Col style={{marginBottom:"20px"}}>
-                <div className="card" style={{maxWidth:"200px"}}>
-                    <img src="https://www.duifhuizen.nl/media/wysiwyg/111208252-17147-001black-_1_-min.jpg" style={{maxHeight:"100px", maxWidth:"100px", marginLeft:"auto", marginRight:"auto", marginTop:"10px", marginBottom:"10px"}} className="card-img-top" alt="..."/>
-                    <div className="card-body">
-                        <h5 className="card-title">Leather Bag</h5>
-                        <p className="card-text">Description is here</p>
-                        <span id="item-count">
-                            1
-                        </span>
-                        <span className="card-body counter">
-                            <div className="btn-group">
-                            <button className="btn btn-secondary btnCounter" id="btnPlus" onClick={() => counter.plus()}>+</button>
-                            <button className="btn btn-secondary btnCounter" id="btnMinus" onClick={() => counter.minus()}>-</button>
-                            </div>
-                        </span>
-                        <span style={{marginLeft:"15px"}}>Rp. 1111111</span>
-                    </div>
-                </div>
-            </Col>
-        </div>
-        
-        );
-}
+          return(
+              <div>
+                  <a className="btn btn-primary" style={{marginLeft:"20px", marginBottom:"20px"}}>CHECK OUT</a>
+                  <Col style={{marginBottom:"20px"}}>
+                      <div className="card" style={{maxWidth:"200px"}}>
+                          <img src="https://www.duifhuizen.nl/media/wysiwyg/111208252-17147-001black-_1_-min.jpg" style={{maxHeight:"100px", maxWidth:"100px", marginLeft:"auto", marginRight:"auto", marginTop:"10px", marginBottom:"10px"}} className="card-img-top" alt="..."/>
+                          <div className="card-body">
+                              <h5 className="card-title">Leather Bag</h5>
+                              <p className="card-text">Description is here</p>
+                              <span id="item-count">
+                                  1
+                              </span>
+                              <span className="card-body counter">
+                                  <div className="btn-group">
+                                  <button className="btn btn-secondary btnCounter" id="btnPlus" onClick={() => counter.plus()}>+</button>
+                                  <button className="btn btn-secondary btnCounter" id="btnMinus" onClick={() => counter.minus()}>-</button>
+                                  </div>
+                              </span>
+                              <span style={{marginLeft:"15px"}}>Rp. 1111111</span>
+                          </div>
+                      </div>
+                  </Col>
+              </div>
+              
+              );
+          }
