@@ -1,0 +1,1 @@
+export const domainPath = 'http://localhost:3001'; // simpan url domain serveer API pada variabel, sehingga bisa dinamis (diganti)
