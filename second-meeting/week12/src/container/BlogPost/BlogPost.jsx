@@ -2,20 +2,12 @@ import React, {Component} from "react";
 import './BlogPost.css';
 // import API from '../../Services/index';
 import Post from "../BlogPost/Post";
+import 'bootstrap/dist/css/bootstrap.css';
 import firebase from "firebase";
 import 'firebase/firestore';
 import firebaseConfig from "../../firebase/config";
 
 class BlogPost extends Component{
-    // state = {                       // komponen state dari React untuk statefull component
-    //     listArtikel: [],             // variabel array yang digunakan untuk menyimpan data API
-    //     insertArtikel: {
-    //         userId: 1,
-    //         id: 1,
-    //         title: "",
-    //         body: ""
-    //     }
-    // }
     constructor(props){
         super(props);
         if(!firebase.apps.length){ firebase.initializeApp(firebaseConfig) } 
