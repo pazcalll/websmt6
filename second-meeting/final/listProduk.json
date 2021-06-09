@@ -1,0 +1,76 @@
+{
+  "produk": [
+    {
+      "id": 1,
+      "name": "Mesin Cuci Samsung",
+      "desc": "mesin Cuci Samsung harga murah kualitas terjangkau. bagus untuk anak sultan",
+      "price": "900000",
+      "img": "https://images.bisnis-cdn.com/thumb/posts/2019/02/05/885521/samsung-mesin-cuci.jpg?w=600&h=400",
+      "stock": 3
+    },
+    {
+      "id": 2,
+      "name": "Mesin Cuci Polytron",
+      "desc": "Mesin Cuci Politron kualitas terjangkau ramah lingkungan. bagus untuk solo player",
+      "price": "1000000",
+      "img": "https://blogpictures.99.co/mesin-cuci-polytron-header99.jpg",
+      "stock": 4
+    },
+    {
+      "id": 3,
+      "name": "Mesin Cuci Hisense",
+      "desc": "ini Mesin Cuci hisense, bisa dibeli varian warna 1",
+      "price": "8000000",
+      "img": "https://img12.jd.id/Indonesia//amZzL3Q2Ny8yNDAvMjUwNzQzMTEwNi8zMzg3OTMvODhmNzA2ODAvNWZkNmY2ZTVOOTI4NjM2YjA.jpg",
+      "stock": 1
+    },
+    {
+      "id": 4,
+      "name": "Mesin Cuci Pioneer",
+      "desc": "diambil dari dari kata pionir, sangat aneh",
+      "price": "9800000",
+      "img": "https://i.pinimg.com/236x/e9/c1/b6/e9c1b68f81f90ca9a5e952bd2ee577a2.jpg",
+      "stock": 6
+    },
+    {
+      "id": 5,
+      "name": "Mesin Cuci Philips",
+      "desc": "Mesin Cuci philips bisa menyala seperti lampu dalam gelap. tidak ada varian warna",
+      "price": "700000",
+      "img": "https://jasaservicepanggilanbandung.com/wp-content/uploads/2017/06/mesin-cuci-tirta1.jpg",
+      "stock": 9
+    },
+    {
+      "id": 6,
+      "name": "Mesin Cuci Panasonic",
+      "desc": "Mesin Cuci Panasonic, satu satunya Mesin Cuci yang bisa buat panas",
+      "price": "100000",
+      "img": "https://mdp.co.id/upload/pictures/product/HA0810.jpg",
+      "stock": 8
+    },
+    {
+      "id": 7,
+      "name": "Mesin Cuci Sharp",
+      "desc": "Mesin Cuci Sharp yang terkenal tajam penurunan suhu nya. Bisa buat demam jika dipakai terlalu lama",
+      "price": "999999",
+      "img": "https://s3.bukalapak.com/uploads/content_attachment/d99b5fef30e8d76241d134c5/original/harga_mesin_cuci_2_tabung-2.jpg",
+      "stock": 7
+    },
+    {
+      "id": 8,
+      "name": "Mesin cuci Haier",
+      "desc": "Yang perlu diperhatikan adalah bacanya Haier bukan hair atau rambut",
+      "price": "111111",
+      "img": "https://media.pricebook.co.id/images/product/M/47817_M_1.jpg",
+      "stock": 2
+    },
+    {
+      "id": 9,
+      "name": "mesin cuci LG",
+      "desc": "LG stands for Life's Good. This name represents their overall product quality",
+      "price": "2000000",
+      "img": "https://www.lg.com/id/images/mesin-cuci/md06050256/gallery/P120RT_1100x730_2.jpg",
+      "stock": 2
+    }
+  ]
+}

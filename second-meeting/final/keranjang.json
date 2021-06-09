@@ -1,0 +1,34 @@
+{
+  "keranjang": [
+    {
+      "id": 1622990577963,
+      "itemId": 1,
+      "name": "Mesin Cuci Samsung",
+      "desc": "mesin Cuci Samsung harga murah kualitas terjangkau. bagus untuk anak sultan",
+      "price": "900000",
+      "img": "https://images.bisnis-cdn.com/thumb/posts/2019/02/05/885521/samsung-mesin-cuci.jpg?w=600&h=400",
+      "stock": 3
+    },
+    {
+      "id": 1622990583230,
+      "itemId": 4,
+      "name": "Mesin Cuci Pioneer",
+      "desc": "diambil dari dari kata pionir, sangat aneh",
+      "price": "9800000",
+      "img": "https://i.pinimg.com/236x/e9/c1/b6/e9c1b68f81f90ca9a5e952bd2ee577a2.jpg",
+      "stock": 6
+    },
+    {
+      "id": 1623179692386,
+      "itemId": 6,
+      "name": "Mesin Cuci Panasonic",
+      "desc": "Mesin Cuci Panasonic, satu satunya Mesin Cuci yang bisa buat panas",
+      "price": "100000",
+      "img": "https://mdp.co.id/upload/pictures/product/HA0810.jpg",
+      "stock": 8
+    }
+  ],
+  "history": [
+    {}
+  ]
+}
