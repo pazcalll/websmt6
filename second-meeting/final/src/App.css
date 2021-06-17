@@ -1,3 +1,41 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @font-face {
   font-family: 'Roboto';
@@ -58,8 +96,8 @@
 
 
 .card {
-  max-width: 70%;
-  max-height: 100%;
+  max-width: 50%;
+  max-height: 90%;
 }
 /* 
 .card-title {
@@ -93,12 +131,17 @@
 
 
 
+
 .btn{
   min-width: 20px;
+  border-radius: 0px;
+}
+.btn-success{
+  border-radius: 0px;
 }
 .central{
   font-size: 10pt;
-  max-width: 1500px;
+  max-width: 1600px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -117,6 +160,8 @@
   height: 100%;
   width: 200px;
   min-width: 100px;
+  z-index: 1;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
   /* background-color: #007bff ; */
 }
 @media only screen and (width: 768px) {
@@ -137,6 +182,7 @@
   display: block;
   box-sizing: border-box;
   padding-left: 40px;
+  padding-right: 40px;
   /* padding-left: 100%; */
   font-size: 12pt;
   transition: 0.5s;
@@ -153,13 +199,7 @@
 .btnCounter{
   padding:0
 }
-.logout{
-  text-shadow: white;
-}
-.logout:hover{
-  background-color: #28a745;
-}
-.btn-dark{
+.btn .btn-dark{
   border: none;
 }
 .navbar{
@@ -173,3 +213,33 @@
   margin-top: 20px;
   margin-left: 20px;
 }
+.card{
+  box-shadow: 20px 10px 26px rgb(184, 184, 184);
+}
+nav{
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.inputbox{
+  color:"black"; 
+  border-radius:"10px"; 
+  padding-bottom:"3px"; 
+  padding-top:"3px"; 
+  padding-left:"15px"; 
+  padding-right:"15px"; 
+  background-color:"#e3e3e3"; 
+  align-self:"center"
+}
+.googleBtn{
+  width: 100%;
+  margin: 0 0 50px 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  font-size: 16px;
+ }
+ .googleBtn Img {
+  height: 16px;
+  padding: 10;
+  margin: 0 5px;
+  /* vertical-align: middle; */
+ }
+ 
